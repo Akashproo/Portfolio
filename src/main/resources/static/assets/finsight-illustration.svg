@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" fill="none">
+  <rect width="1200" height="720" rx="24" fill="#F0EEFF"/>
+  <circle cx="1000" cy="140" r="178" fill="#E1DCFF"/>
+  <rect x="158" y="96" width="884" height="528" rx="18" fill="white" stroke="#DDD9ED" stroke-width="2"/>
+  <path d="M158 160h884" stroke="#E9E6F0" stroke-width="2"/>
+  <circle cx="198" cy="128" r="7" fill="#E85B68"/><circle cx="222" cy="128" r="7" fill="#E7B66D"/><circle cx="246" cy="128" r="7" fill="#8174FF"/>
+  <text x="218" y="212" fill="#171821" font-family="Arial,sans-serif" font-size="27" font-weight="700">FinSight</text><text x="218" y="239" fill="#85818F" font-family="Arial,sans-serif" font-size="13">FINANCIAL OVERVIEW · PROJECT ILLUSTRATION</text>
+  <rect x="218" y="267" width="244" height="117" rx="11" fill="#F8F7FC"/><rect x="481" y="267" width="244" height="117" rx="11" fill="#F8F7FC"/><rect x="744" y="267" width="244" height="117" rx="11" fill="#FFF4F1"/>
+  <text x="239" y="297" fill="#77737F" font-family="Arial,sans-serif" font-size="12">OVERVIEW</text><text x="239" y="343" fill="#282631" font-family="Arial,sans-serif" font-size="28" font-weight="700">— — —</text>
+  <text x="502" y="297" fill="#77737F" font-family="Arial,sans-serif" font-size="12">ACTIVITY</text><path d="M505 352c24-31 38-25 55-13 18 13 32-42 51-29 18 12 25 39 46 8 16-24 30 10 48-9" stroke="#8174FF" stroke-width="5" stroke-linecap="round"/>
+  <text x="765" y="297" fill="#77737F" font-family="Arial,sans-serif" font-size="12">CATEGORIES</text><circle cx="805" cy="342" r="25" stroke="#E85B68" stroke-width="12"/><path d="M805 317a25 25 0 0 1 24 18" stroke="#8174FF" stroke-width="12" stroke-linecap="round"/>
+  <rect x="218" y="406" width="770" height="173" rx="11" fill="#FBFAFD" stroke="#F0EDF4"/>
+  <text x="241" y="440" fill="#77737F" font-family="Arial,sans-serif" font-size="12">PROJECT CONCEPT VISUAL</text>
+  <path d="M255 535h690" stroke="#E8E5EC" stroke-width="2"/><path d="M269 519v-27h30v27m22 0v-58h30v58m22 0v-35h30v35m22 0v-75h30v75m22 0v-45h30v45m22 0v-62h30v62m22 0v-31h30v31m22 0v-52h30v52m22 0v-68h30v68m22 0v-40h30v40" fill="#DCD7FF"/>
+  <text x="241" y="564" fill="#8B8791" font-family="Arial,sans-serif" font-size="11">Illustrative artwork only — implementation details to be confirmed</text>
+</svg>

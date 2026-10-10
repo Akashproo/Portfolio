@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" role="img" aria-labelledby="title">
+  <title id="title">REST API</title>
+  <path d="M13 16h15v15H13zM36 33h15v15H36z" stroke="#7257D9" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M28 23h8a8 8 0 0 1 8 8v2M36 41h-8a8 8 0 0 1-8-8v-2" stroke="#42C9BC" stroke-width="4" stroke-linecap="round"/>
+  <path d="m32 28 5-5-5-5M32 36l-5 5 5 5" stroke="#F46C88" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
