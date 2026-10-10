@@ -13,6 +13,7 @@
     "nodemailer": "^10.1.0",
     "react": "latest",
     "react-dom": "latest",
+    "resend": "^6.32.1",
     "vite": "latest"
   }
 }
