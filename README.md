@@ -18,6 +18,6 @@ Create a production build with `npm run build`. To serve that build locally, run
 
 The featured cards refresh their matching public GitHub repository links and latest push dates when a visitor opens the site. Repository updates appear on the next page load; the portfolio text and illustrations stay curated here.
 
-The contact form posts to a Netlify Function that sends mail over SMTP. Configure `SMTP_HOST`, `SMTP_PORT`, `SMTP_SECURE`, `SMTP_USER`, `SMTP_PASS`, and (optionally) `SMTP_FROM` and `CONTACT_TO` in the deployment environment. For local development, copy `.env.example` to `.env` and enter credentials for an SMTP account. Keep real credentials private and out of Git. Without SMTP configuration the form reports that delivery is unavailable, and does not claim the message was sent.
+The contact form posts to a Netlify Function that sends mail through Resend. Configure `RESEND_API_KEY`, `CONTACT_TO_EMAIL`, and `CONTACT_FROM_EMAIL` in the Netlify environment. Keep real credentials private and out of Git. Without these settings the form reports that delivery is unavailable, and does not claim the message was sent.
 
-Local development includes a Vite middleware for the same contact function, so `npm run dev` serves both the site and form endpoint. Deployments use `netlify/functions/contact.mjs`. The resume download uses `public/assets/Akash-Rathod-CV.pdf`.
+Local development includes a Vite middleware for the same contact function, so `npm run dev` serves both the site and form endpoint. Deployments use `netlify/functions/contact.mjs`. The resume download uses `public/assets/AkashRathodResume.pdf`.

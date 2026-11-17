@@ -34,19 +34,17 @@ const education = [
 
 const skills = [
   { title: 'Programming Languages', items: [['Java','java'],['JavaScript','javascript'],['Python','python']] },
-  { title: 'Frontend Development', items: [['HTML5','html5'],['CSS3','css3'],['JavaScript','javascript']] },
-  { title: 'Backend Development', items: [['Java','java'],['Backend development',null]] },
-  { title: 'Database', items: [['SQL',null]] },
-  { title: 'Application Development', items: [['Android Development','androidstudio']] },
-  { title: 'Tools', items: [['Android Studio','androidstudio'],['Git','git'],['GitHub','github']] },
-  { title: 'Machine Learning', items: [['TensorFlow','tensorflow'],['Hugging Face Transformers','huggingface']] },
-  { title: 'Core Concepts', items: [['Object-Oriented Programming',null],['Problem-Solving',null],['Debugging',null],['Data Cleaning and Preprocessing',null]] }
+  { title: 'Core Java', items: [['OOP',null],['Collections',null],['Exception Handling',null],['Multithreading',null],['Arrays & Strings',null]] },
+  { title: 'Backend Technologies', items: [['Spring Boot','spring'],['Spring MVC',null],['Spring Data JPA',null],['Hibernate','hibernate'],['JDBC',null],['REST APIs','rest-api']] },
+  { title: 'Frontend Technologies', items: [['HTML5','html5'],['CSS3','css3'],['React.js (basic)','react']] },
+  { title: 'Database', items: [['PostgreSQL','postgresql'],['MySQL','mysql'],['SQL','sql']] },
+  { title: 'Tools', items: [['IntelliJ IDEA',null],['Git','git'],['GitHub','github'],['Maven','maven'],['Postman','postman']] }
 ];
 
 const projects = [
-  { number: '01', name: 'Kannada Abstractive Text Summarization with Sentiment Analysis', type: 'NLP · MACHINE LEARNING', image: 'kannada-summarization.png', imageAlt: 'Illustration for the Kannada text summarization and sentiment analysis project', summary: 'An NLP-based application that generates abstractive summaries and performs sentiment analysis on large text documents, applying language processing and data techniques to extract meaningful information.', tags: ['Python','Hugging Face Transformers','TensorFlow'], repo: 'https://github.com/search?q=user%3AAkashproo+Kannada+Abstractive+Text+Summarization&type=repositories', repoLabel: 'Search Kannada Project', repoMatch: /kannada|summari[sz]/i, tone: 'kannada' },
-  { number: '02', name: 'Expense Tracker App', type: 'ANDROID APPLICATION', image: 'expense-tracker-illustration.svg', imageAlt: 'Illustration for the Android expense tracking project', summary: 'An Android application for tracking daily expenses and maintaining spending records, with interfaces for recording and managing expense information.', tags: ['Java','XML','Android Studio'], repo: 'https://github.com/search?q=user%3AAkashproo+Expense+Tracker&type=repositories', repoLabel: 'Search Expense Tracker', repoMatch: /expense.?tracker/i, tone: 'expense' },
-  { number: '03', name: 'Surya-Shakti Solar Monitor', type: 'ANDROID · CLEAN ENERGY', image: 'solar-monitor-illustration.svg', imageAlt: 'Illustration for the Surya-Shakti solar monitoring project', summary: 'An Android application for monitoring solar power generation and energy use, including recording and tracking generation and consumption.', tags: ['Java','XML','Firebase','Android Studio'], repo: 'https://github.com/Akashproo/suryashakti-solar-monitor', repoMatch: /surya.?shakti|solar.?monitor/i, tone: 'solar' }
+  { number: '01', name: 'MiniShop', type: 'FULL STACK E-COMMERCE', image: 'minishop-illustration.svg', imageAlt: 'Illustration for the MiniShop e-commerce application', summary: 'Full-stack e-commerce app with REST APIs for product management, checkout and order totals, connected to PostgreSQL through Spring Data JPA and Hibernate.', tags: ['Java','Spring Boot','Spring Data JPA','PostgreSQL','JavaScript'], repo: 'https://github.com/search?q=user%3AAkashproo+MiniShop&type=repositories', repoLabel: 'Search MiniShop', repoMatch: /mini.?shop/i, tone: 'shop' },
+  { number: '02', name: 'Expense Tracker Android Application', type: 'ANDROID APPLICATION', image: 'expense-tracker-illustration.svg', imageAlt: 'Illustration for the Android expense tracking project', summary: 'Android application for recording daily expenses and managing expense records with XML layouts.', tags: ['Java','XML','Android Studio'], repo: 'https://github.com/search?q=user%3AAkashproo+Expense+Tracker&type=repositories', repoLabel: 'Search Expense Tracker', repoMatch: /expense.?tracker/i, tone: 'expense' },
+  { number: '03', name: 'Kannada Text Summarization & Sentiment Analysis', type: 'NLP / MACHINE LEARNING', image: 'kannada-summarization.png', imageAlt: 'Illustration for the Kannada text summarization and sentiment analysis project', summary: 'NLP project for abstractive text summarization and sentiment analysis, using text processing to extract meaningful information.', tags: ['Python','TensorFlow','Hugging Face Transformers'], repo: 'https://github.com/search?q=user%3AAkashproo+Kannada+Abstractive+Text+Summarization&type=repositories', repoLabel: 'Search Kannada Project', repoMatch: /kannada|summari[sz]/i, tone: 'kannada' }
 ];
 
 function Header() {
@@ -73,18 +71,18 @@ function Hero() {
     <div className="hero-copy reveal"><div className="eyebrow"><span className="eyebrow-dot"/> WELCOME TO MY PORTFOLIO</div>
       <h1>Hello, I’m<br/><span>Akash Rathod</span><i>.</i></h1>
       <p className="hero-role">Computer Science Engineer</p>
-      <p className="hero-intro">Computer Science Engineering graduate with hands-on experience in software development, Java, web technologies, databases, and Android application development. Passionate about building useful applications, solving problems, and continuously learning new technologies.</p>
-      <div className="hero-actions"><a className="btn btn-dark" href="#projects">View My Projects <Icon name="arrow" size={17}/></a><a className="btn btn-outline" href="/assets/Akash-Rathod-CV.pdf" download>Download Resume <span className="download-mark">↓</span></a></div>
-      <div className="hero-bottom"><Socials/><span className="hero-bottom-note">Seeking Frontend Developer or Backend Developer opportunities</span></div>
+      <p className="hero-intro">Software Developer with hands-on project experience in Java, Spring Boot, REST APIs, and PostgreSQL, plus foundational React.js knowledge. Focused on building efficient, maintainable applications and strengthening full-stack skills.</p>
+      <div className="hero-actions"><a className="btn btn-dark" href="#projects">View My Projects <Icon name="arrow" size={17}/></a><a className="btn btn-outline" href="/assets/AkashRathodResume.pdf" download>Download Resume <span className="download-mark">↓</span></a></div>
+      <div className="hero-bottom"><Socials/><span className="hero-bottom-note">Full Stack Web Development Intern · Tap Academy (2026)</span></div>
     </div>
     <div className="hero-visual reveal"><div className="portrait-stage"><div className="portrait-green"/><div className="sun-shape"/><div className="dot-field"/><div className="portrait-frame"><img src={`${A}akash-profile.png`} alt="Akash Rathod" fetchPriority="high"/><span className="photo-caption">AKASH RATHOD <b>·</b> COMPUTER SCIENCE ENGINEER</span></div><div className="curve-shape"/><div className="portrait-sticker"><span>AR</span><small>BUILDING<br/>WHAT'S NEXT</small></div></div>
-      <aside className="quick-card"><p className="quick-title"><span className="status-dot"/> A LITTLE ABOUT ME</p><div className="quick-row"><Icon name="grad"/><span><small>EDUCATION</small><b>B.E. Computer Science</b></span></div><div className="quick-row"><Icon name="pin"/><span><small>LOCATION</small><b>Vijayapura, Karnataka</b></span></div><div className="quick-row"><Icon name="mail"/><span><small>EMAIL</small><a href="mailto:rtakash2003@gmail.com">rtakash2003@gmail.com</a></span></div><div className="quick-row"><Icon name="phone"/><span><small>PHONE</small><a href="tel:8105361870">8105361870</a></span></div><div className="availability"><span/> Seeking frontend or backend roles</div></aside>
+      <aside className="quick-card"><p className="quick-title"><span className="status-dot"/> A LITTLE ABOUT ME</p><div className="quick-row"><Icon name="grad"/><span><small>EDUCATION</small><b>B.E. Computer Science</b></span></div><div className="quick-row"><Icon name="pin"/><span><small>LOCATION</small><b>Vijayapura, Karnataka</b></span></div><div className="quick-row"><Icon name="mail"/><span><small>EMAIL</small><a href="mailto:rtakash2003@gmail.com">rtakash2003@gmail.com</a></span></div><div className="quick-row"><Icon name="phone"/><span><small>PHONE</small><a href="tel:8105361870">8105361870</a></span></div><div className="availability"><span/> Software Developer · Java & Spring Boot</div></aside>
     </div>
   </section>;
 }
 
 function About() {
-  return <section className="about-section" id="about"><div className="wrap about reveal"><div className="section-label">A NOTE ABOUT ME <span>01 — 04</span></div><div className="about-row"><h2>Building useful<br/><em>software with purpose.</em></h2><div><p>Computer Science Engineering graduate with hands-on experience in software development, Java, JavaScript, HTML, CSS, SQL, Python, and application development.</p><p>Skilled in developing software applications, building user interfaces, working with databases, debugging issues, and implementing efficient solutions. Strong foundation in object-oriented programming, problem-solving, software development, and data processing.</p></div></div></div></section>;
+  return <section className="about-section" id="about"><div className="wrap about reveal"><div className="section-label">A NOTE ABOUT ME <span>01 / 04</span></div><div className="about-row"><h2>Building useful<br/><em>software with purpose.</em></h2><div><p>Results-oriented Software Developer with hands-on experience building projects with Java, Spring Boot, REST APIs, and PostgreSQL, and foundational knowledge of React.js.</p><p>Comfortable with object-oriented programming, database management, and frontend-backend integration. I focus on writing maintainable applications and keep growing through practical full-stack development.</p></div></div></div></section>;
 }
 
 function InfoSection() {
@@ -102,7 +100,7 @@ function InfoSection() {
           ))}</div>
         </div>
         <div className="info-column skills-column" id="skills">
-          <div className="column-heading"><span className="heading-icon"><Icon name="sparkle" size={22}/></span><div><p>FROM THE SUPPLIED CV</p><h2>Technical Skills</h2></div></div>
+          <div className="column-heading"><span className="heading-icon"><Icon name="sparkle" size={22}/></span><div><p>FROM MY RESUME</p><h2>Technical Skills</h2></div></div>
           <div className="skill-groups">{skills.map(group => (
             <div className="skill-group" key={group.title}>
               <h3>{group.title}</h3>
@@ -114,6 +112,10 @@ function InfoSection() {
               ))}</div>
             </div>
           ))}</div>
+        </div>
+        <div className="info-column experience-column">
+          <div className="column-heading"><span className="heading-icon"><Icon name="briefcase" size={22}/></span><div><p>PROFESSIONAL EXPERIENCE</p><h2>Internship</h2></div></div>
+          <div className="internship-list"><article className="internship-card"><span className="internship-index">01</span><div><h3>Full Stack Web Development Intern</h3><p className="company-name">Tap Academy | 2026</p><p className="internship-detail">Practiced Core Java, OOP, collections, exception handling and multithreading. Learned backend development with Spring Boot, Hibernate, JDBC and Servlets; built frontend foundations with HTML, CSS, JavaScript and React, and worked with MySQL.</p></div><span className="card-corner"/></article></div>
         </div>
       </div>
     </section>
